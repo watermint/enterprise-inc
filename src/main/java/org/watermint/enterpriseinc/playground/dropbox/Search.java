@@ -8,7 +8,7 @@ import com.dropbox.core.v2.files.*;
 import java.util.List;
 
 public class Search {
-    private static final String ACCESS_TOKEN = "PASTE_YOUR_TOKEN_HERE";
+    private static final String ACCESS_TOKEN = Token.getAccessToken("PASTE_YOUR_TOKEN_HERE");
     private static final String SEARCH_PATH = "/Test";
     private static final String SEARCH_QUERY = "Dropbox";
 

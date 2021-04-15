@@ -13,7 +13,7 @@ import com.dropbox.core.v2.files.Metadata;
 import java.util.List;
 
 public class Properties {
-    private static final String ACCESS_TOKEN = "";
+    private static final String ACCESS_TOKEN = Token.getAccessToken("PASTE_YOUR_TOKEN_HERE");
     private static final String clientId = "watermint-enterprise-inc-usecases-properties/1.0";
 
     public static void main(String[] args) throws DbxException {
